@@ -1,0 +1,79 @@
+
+body {
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+input[type="number"], select {
+    background-color: #3b3b3b;
+    color: #e0e0e0;
+    border: 1px solid #5a5a5a;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100px;
+    text-align: center;
+}
+
+button {
+    background-color: #5a5a5a;
+    color: #e0e0e0;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4a4a4a;
+}
+
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #f0f0f0;
+}
+
+
+.footer-nav {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.footer-nav a {
+    color: #ff9800;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #e68900;
+}
